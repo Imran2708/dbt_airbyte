@@ -1,0 +1,27 @@
+
+
+============================== 2023-01-11 06:42:06.850301 | 18c5dd51-c393-4ce4-9982-7731eeb0378e ==============================
+[0m06:42:06.850301 [info ] [MainThread]: Running with dbt=1.3.2
+[0m06:42:06.852363 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\bijin\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'first_airbyte_pipeline', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m06:42:06.853303 [debug] [MainThread]: Tracking: tracking
+[0m06:42:06.873935 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000198C8017700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000198C8017A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000198C8017850>]}
+[0m06:42:06.877462 [debug] [MainThread]: Starter project path: C:\Users\bijin\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m06:43:32.502198 [info ] [MainThread]: Profile first_airbyte_pipeline written to C:\Users\bijin\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m06:43:32.505640 [info ] [MainThread]: 
+Your new dbt project "first_airbyte_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m06:43:32.508642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000198C8017940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000198C8017850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000198C8017A30>]}
+[0m06:43:32.510987 [debug] [MainThread]: Flushing usage events
